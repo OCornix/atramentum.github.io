@@ -1,0 +1,89 @@
+/*
+Background Color 1: #A57425
+Background Color 2: #D65509
+
+Text Color 1: #000
+Text Color 2: #5c1c12
+*/
+
+body{
+    color: #000;
+    background-image: url('/assets/images/cloudsPurple.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, p{
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #808a8e54;
+    
+}
+
+div{
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #8a8d9954;
+}
+
+img{
+    width: 60%;
+    margin: auto;
+    
+}
+
+div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div li{
+    list-style: none;   
+}
+
+nav{
+    text-align: left;
+    background-color: #434250a4;
+    float: left;
+    
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+
+header{
+    color: #000;
+    background-color: #4e5152a4;
+    margin: auto;
+    margin-bottom: 10px;
+    float: none;
+    width: 50%;
+    padding: 10px;
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: armenian;
+    padding-bottom: 20px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0000ff;
+    text-decoration: underline;
+}
